@@ -67,6 +67,7 @@ SpriteAtlas:
   - {fileID: -1885395502, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: -262026591, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: -1020742354, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
+  - {fileID: -166296993, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: -682032586, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: 1324801126, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: 362401745, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
@@ -77,7 +78,6 @@ SpriteAtlas:
   - {fileID: -1207555619, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: 1055027251, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: 276867800, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
-  - {fileID: -166296993, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: 1723243029, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: 830684897, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   - {fileID: -1713939929, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
@@ -113,6 +113,7 @@ SpriteAtlas:
   - Main Character_2
   - Main Character_3
   - Main Character_4
+  - Main Character_
   - Main Character_5
   - Main Character_19
   - Main Character_6
@@ -123,7 +124,6 @@ SpriteAtlas:
   - Main Character_11
   - Main Character_10
   - Main Character_17
-  - Main Character_16
   - Main Character_15
   - Main Character_14
   - Main Character_20
