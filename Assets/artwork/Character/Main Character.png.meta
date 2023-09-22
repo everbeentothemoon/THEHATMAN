@@ -301,8 +301,8 @@ TextureImporter:
         y: 64
         width: 17
         height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,7 +441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Main Character_16
+      name: Main Character_
       rect:
         serializedVersion: 2
         x: 7
@@ -587,13 +587,13 @@ TextureImporter:
       Main Character_1: -740086814
       Main Character_10: 1055027251
       Main Character_3: -262026591
-      Main Character_16: -166296993
       Main Character_15: 1723243029
       Main Character_14: 830684897
       Main Character_12: -1694454159
       Main Character_0: 1898433247
       Main Character_17: 276867800
       Main Character_21: -357443978
+      Main Character_: -166296993
       Main Character_9: 1136095389
       Main Character_4: -1020742354
       Main Character_19: 1324801126
