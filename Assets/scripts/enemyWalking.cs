@@ -21,6 +21,11 @@ public class enemyWalking : MonoBehaviour
     private Rigidbody2D rb;
     private Rigidbody2D enemyRb;
 
+    public float fallDamageHeightThreshold = 10f; 
+    private bool isDead = false; 
+
+    private bool hasFunctionBeenInvoked = false;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -47,6 +52,16 @@ public class enemyWalking : MonoBehaviour
         else
         {
             MoveLeft();
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            if (!hasFunctionBeenInvoked)
+            {            
+                hasFunctionBeenInvoked = true;
+                suicide();
+            }
         }
     }
 
@@ -106,6 +121,17 @@ public class enemyWalking : MonoBehaviour
         Vector2 launchDirection = (walkingEnemy.transform.position - transform.position).normalized;
 
         enemyRb.AddForce(launchDirection * launchForce, ForceMode2D.Impulse);
+    }
+
+    private void suicide()
+    {
+
+        GameObject o = Instantiate(corpse);
+        o.transform.position = player.transform.position;
+
+        player.transform.position = spawnPosition[spawnCount].transform.position;
+        hasFunctionBeenInvoked = false;
+
     }
 
 }
