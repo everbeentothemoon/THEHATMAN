@@ -122,7 +122,7 @@ public class movement : MonoBehaviour
     private void Jump()
     {
         rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-        canJump = false; // Prevent jumping until the player lands
+        canJump = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -130,7 +130,7 @@ public class movement : MonoBehaviour
         if (collision.gameObject.CompareTag("ground"))
         {
             isGrounded = true;
-            canJump = true; // Reset jump flag when landing
+            canJump = true;
         }
 
         if (collision.gameObject.CompareTag("ground") && fallDamage)
@@ -144,6 +144,8 @@ public class movement : MonoBehaviour
         if (collision.gameObject.CompareTag("ground"))
         {
             isGrounded = false;
+
+            
         }
     }
 
