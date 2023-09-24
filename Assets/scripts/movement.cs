@@ -27,6 +27,10 @@ public class movement : MonoBehaviour
     public GameObject left;
     public GameObject right;
 
+    [Header("Anim")]
+    public bool isWalking;
+    public bool isJumping;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -35,13 +39,13 @@ public class movement : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKey(KeyCode.LeftArrow))
+        if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             left.SetActive(true);
             right.SetActive(false);
         }
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             right.SetActive(true);
             left.SetActive(false);

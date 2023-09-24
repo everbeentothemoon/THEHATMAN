@@ -15196,7 +15196,7 @@ MonoBehaviour:
   jumpForce: 10
   groundLayer:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 8
   groundCheck: {fileID: 1321155922}
   groundCheckRadius: 0.1
   rotationSpeed: 180
@@ -15206,6 +15206,8 @@ MonoBehaviour:
   enemy: {fileID: 2071250342}
   left: {fileID: 1868879749}
   right: {fileID: 1926414780}
+  isWalking: 0
+  isJumping: 0
 --- !u!114 &1038001543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15213,7 +15215,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038001537}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f0eb3fc8c8e50b4aac49afdce6f6a78, type: 3}
   m_Name: 
@@ -15241,6 +15243,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4036441875487400758, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
   m_PrefabInstance: {fileID: 286078322}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1038001552
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038001537}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 020895144aa8dfb449f11435e00811f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1038403238
 GameObject:
   m_ObjectHideFlags: 0
@@ -39644,7 +39666,7 @@ GameObject:
   - component: {fileID: 1844445340}
   m_Layer: 0
   m_Name: grounds
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
