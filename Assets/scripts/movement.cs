@@ -28,6 +28,8 @@ public class movement : MonoBehaviour
     public GameObject right;
 
     [Header("Anim")]
+    private Animator animator;
+
     public bool isWalking;
     public bool isJumping;
 
@@ -35,6 +37,8 @@ public class movement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         em = enemy.GetComponent<enemyWalking>();
+
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -43,12 +47,24 @@ public class movement : MonoBehaviour
         {
             left.SetActive(true);
             right.SetActive(false);
+
+            animator.SetBool("walkLeft", true);
+        }
+        else
+        {
+            animator.SetBool("walkLeft", false);
         }
 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             right.SetActive(true);
             left.SetActive(false);
+
+            animator.SetBool("walkRight", true);
+        }
+        else
+        {
+            animator.SetBool("walkRight", false);
         }
 
         float horizontalInput = Input.GetAxis("Horizontal");
@@ -59,6 +75,11 @@ public class movement : MonoBehaviour
         if (canJump && Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
+            isJumping = true;
+        }
+        else
+        {
+            isJumping = false;
         }
 
         if (Input.GetKeyDown(KeyCode.Z))
