@@ -105,10 +105,17 @@ public class movement : MonoBehaviour
         {
             Jump();
             isJumping = true;
+
+        }
+
+        if (!isGrounded)
+        {
+            animator.SetBool("isJumping", true);
         }
         else
         {
-            isJumping = false;
+            animator.SetBool("isJumping", false);
+
         }
 
         if (Input.GetKeyDown(KeyCode.Z))
