@@ -1,16 +1,22 @@
  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class playVideo : MonoBehaviour
 {
-    // VideoPlayer videoPlayer;
+    public VideoPlayer videoPlayer;
 
     void Start()
     {
-        //videoPlayer = GetComponent<VideoPlayer>();
+        videoPlayer = GetComponent<VideoPlayer>();
 
-        //videoPlayer.Play();
+        videoPlayer.Play();
+    }
+
+    public void Update()
+    {
+
     }
 }
 
