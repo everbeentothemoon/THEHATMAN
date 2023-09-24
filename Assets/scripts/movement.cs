@@ -24,6 +24,9 @@ public class movement : MonoBehaviour
     private bool isGrounded;
     private bool canJump = true;
 
+    public GameObject left;
+    public GameObject right;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -32,6 +35,18 @@ public class movement : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKey(KeyCode.LeftArrow))
+        {
+            left.SetActive(true);
+            right.SetActive(false);
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            right.SetActive(true);
+            left.SetActive(false);
+        }
+
         float horizontalInput = Input.GetAxis("Horizontal");
 
         Move(horizontalInput);
