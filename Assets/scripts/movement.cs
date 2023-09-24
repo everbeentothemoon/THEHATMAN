@@ -33,26 +33,35 @@ public class movement : MonoBehaviour
     public bool isWalking;
     public bool isJumping;
 
+    private SpriteRenderer sr;
+    [SerializeField] private bool facingRight = true;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         em = enemy.GetComponent<enemyWalking>();
 
         animator = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
+
+        
     }
 
     private void Update()
     {
-        if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        /*if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             left.SetActive(true);
             right.SetActive(false);
 
-            animator.SetBool("walkLeft", true);
+            animator.SetBool("isWalking", true);
+
+
+            //Flip();
         }
         else
         {
-            animator.SetBool("walkLeft", false);
+            animator.SetBool("isWalking", false);
         }
 
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
@@ -60,16 +69,36 @@ public class movement : MonoBehaviour
             right.SetActive(true);
             left.SetActive(false);
 
-            animator.SetBool("walkRight", true);
+            animator.SetBool("isWalking", true);
+
         }
         else
         {
-            animator.SetBool("walkRight", false);
-        }
+            animator.SetBool("isWalking", false);
+        }*/
 
         float horizontalInput = Input.GetAxis("Horizontal");
 
         Move(horizontalInput);
+
+        if(horizontalInput > 0 && facingRight)
+        {
+            Flip();
+        }
+        if (horizontalInput < 0 && !facingRight)
+        {
+            Flip();
+        }
+
+        if(horizontalInput > 0 || horizontalInput < 0)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+
+        }
 
         // Check if the character can jump and is grounded
         if (canJump && Input.GetKeyDown(KeyCode.Space))
@@ -191,4 +220,14 @@ public class movement : MonoBehaviour
         fallDamage = false;
         isDead = false;
     }
+
+    private void Flip()
+    {
+        Vector3 currentScale = gameObject.transform.localScale;
+        currentScale.x *= -1;
+        gameObject.transform.localScale = currentScale;
+
+        facingRight = !facingRight;
+    }
+
 }
