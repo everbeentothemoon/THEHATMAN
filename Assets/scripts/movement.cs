@@ -27,59 +27,27 @@ public class movement : MonoBehaviour
     public GameObject left;
     public GameObject right;
 
-<<<<<<< Updated upstream
-    [Header("Anim")]
-    private Animator animator;
-
-    public bool isWalking;
-    public bool isJumping;
-
-    private SpriteRenderer sr;
-    [SerializeField] private bool facingRight = true;
-=======
     public bool isShiftKeyPressed = false;
->>>>>>> Stashed changes
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         em = enemy.GetComponent<enemyWalking>();
-
-        animator = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>();
-
-        
     }
 
     private void Update()
     {
-        /*if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             left.SetActive(true);
             right.SetActive(false);
-
-            animator.SetBool("isWalking", true);
-
-
-            //Flip();
-        }
-        else
-        {
-            animator.SetBool("isWalking", false);
         }
 
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             right.SetActive(true);
             left.SetActive(false);
-
-            animator.SetBool("isWalking", true);
-
         }
-        else
-        {
-            animator.SetBool("isWalking", false);
-        }*/
 
         if (Input.GetKey(KeyCode.LeftShift) && !isShiftKeyPressed)
         {
@@ -96,41 +64,10 @@ public class movement : MonoBehaviour
 
         Move(horizontalInput);
 
-        if(horizontalInput > 0 && facingRight)
-        {
-            Flip();
-        }
-        if (horizontalInput < 0 && !facingRight)
-        {
-            Flip();
-        }
-
-        if(horizontalInput > 0 || horizontalInput < 0)
-        {
-            animator.SetBool("isWalking", true);
-        }
-        else
-        {
-            animator.SetBool("isWalking", false);
-
-        }
-
         // Check if the character can jump and is grounded
         if (canJump && Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
-            isJumping = true;
-
-        }
-
-        if (!isGrounded)
-        {
-            animator.SetBool("isJumping", true);
-        }
-        else
-        {
-            animator.SetBool("isJumping", false);
-
         }
 
         if (Input.GetKeyDown(KeyCode.Z))
@@ -213,7 +150,7 @@ public class movement : MonoBehaviour
         {
             Die();
 
-            
+
         }
         if (collision.gameObject.CompareTag("crate") && fallDamage)
         {
@@ -227,7 +164,7 @@ public class movement : MonoBehaviour
         {
             isGrounded = false;
 
-            
+
         }
     }
 
@@ -248,14 +185,4 @@ public class movement : MonoBehaviour
         fallDamage = false;
         isDead = false;
     }
-
-    private void Flip()
-    {
-        Vector3 currentScale = gameObject.transform.localScale;
-        currentScale.x *= -1;
-        gameObject.transform.localScale = currentScale;
-
-        facingRight = !facingRight;
-    }
-
 }
