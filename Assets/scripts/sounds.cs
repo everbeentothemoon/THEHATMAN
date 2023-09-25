@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sounds : Behaviour
+public class sounds : MonoBehaviour
 {
     public AudioSource audioSource;
 

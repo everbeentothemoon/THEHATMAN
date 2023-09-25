@@ -1,28 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class killing : MonoBehaviour
 {
     public enemyWalking ew;
     public GameObject enemy;
-    // Start is called before the first frame update
+    private bool hasInstantiatedCorpse = false;
+
     void Start()
     {
         ew = enemy.GetComponent<enemyWalking>();
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && !hasInstantiatedCorpse)
         {
+            hasInstantiatedCorpse = true;
             killEdward();
         }
     }
@@ -35,5 +28,6 @@ public class killing : MonoBehaviour
 
         ew.player.transform.position = ew.spawnPosition[ew.spawnCount].transform.position;
 
+        hasInstantiatedCorpse = false;
     }
 }
