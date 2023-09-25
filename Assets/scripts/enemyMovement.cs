@@ -34,6 +34,22 @@ public class enemyMovement : MonoBehaviour
 
     private void Update()
     {
+
+        foreach (GameObject spawnPoint in spawnPosition)
+        {
+            // Check if the current spawn point has a GameObject with the "crate" tag
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(spawnPoint.transform.position, 0.1f); // Adjust the radius as needed
+            foreach (Collider2D collider in colliders)
+            {
+                if (collider.CompareTag("crate"))
+                {
+                    // Destroy the GameObject
+                    Destroy(collider.gameObject);
+                    Debug.Log("destroyed");
+                }
+            }
+        }
+
         if (isMovingRight)
         {
             // Move towards the right position

@@ -27,7 +27,12 @@ public class killing : MonoBehaviour
         o.transform.position = ew.player.transform.position;
 
         ew.player.transform.position = ew.spawnPosition[ew.spawnCount].transform.position;
+        
+        if (ew.player.transform.position == ew.spawnPosition[ew.spawnCount].transform.position)
+        {
 
-        hasInstantiatedCorpse = false;
+            hasInstantiatedCorpse = false;
+        }
+
     }
 }
