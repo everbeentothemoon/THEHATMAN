@@ -23,8 +23,12 @@ public class enemyMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Rigidbody2D enemyRb;
 
+    public GameObject enemy;
+    public sounds s;
+
     private void Start()
     {
+        s = enemy.GetComponent<sounds>();
         rb = GetComponent<Rigidbody2D>();
         enemyRb = GetComponent<Rigidbody2D>();
         // Calculate the initial left and right positions based on the movement radius
@@ -38,7 +42,7 @@ public class enemyMovement : MonoBehaviour
         foreach (GameObject spawnPoint in spawnPosition)
         {
             // Check if the current spawn point has a GameObject with the "crate" tag
-            Collider2D[] colliders = Physics2D.OverlapCircleAll(spawnPoint.transform.position, 0.1f); // Adjust the radius as needed
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(spawnPoint.transform.position, 1f); // Adjust the radius as needed
             foreach (Collider2D collider in colliders)
             {
                 if (collider.CompareTag("crate"))
@@ -84,6 +88,7 @@ public class enemyMovement : MonoBehaviour
 
             Debug.Log("player collided");
             GameObject o = Instantiate(corpse);
+            s.PlayMusic();
             o.transform.position = player.transform.position;
 
             player.transform.position = spawnPosition[spawnCount].transform.position;

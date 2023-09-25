@@ -21,8 +21,11 @@ public class enemyWalking : MonoBehaviour
     private Rigidbody2D rb;
     private Rigidbody2D enemyRb;
 
+    public sounds s;
+
     private void Start()
     {
+        s = gameObject.GetComponent<sounds>();
         rb = GetComponent<Rigidbody2D>();
         enemyRb = walkingEnemy.GetComponent<Rigidbody2D>();
         if (rb == null)
@@ -82,6 +85,7 @@ public class enemyWalking : MonoBehaviour
 
             Debug.Log("player collided");
             GameObject o = Instantiate(corpse);
+            s.PlayMusic();
             o.transform.position = player.transform.position;
 
             player.transform.position = spawnPosition[spawnCount].transform.position;

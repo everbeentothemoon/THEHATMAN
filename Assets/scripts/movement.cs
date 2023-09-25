@@ -22,17 +22,20 @@ public class movement : MonoBehaviour
     public GameObject enemy;
 
     private bool isGrounded;
-    private bool canJump = true;
+    public bool canJump = true;
 
     public GameObject left;
     public GameObject right;
 
     public bool isShiftKeyPressed = false;
 
+    public sounds s;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         em = enemy.GetComponent<enemyWalking>();
+        s = enemy.GetComponent<sounds>();
     }
 
     private void Update()
@@ -101,7 +104,9 @@ public class movement : MonoBehaviour
                 {
                     fallDamage = true;
                     Debug.Log("Fall damage on");
+
                 }
+
             }
         }
     }
@@ -146,10 +151,16 @@ public class movement : MonoBehaviour
             canJump = true;
         }
 
+        if (collision.gameObject.CompareTag("crate"))
+        {
+            isGrounded = true;
+            canJump = true;
+        }
+
         if (collision.gameObject.CompareTag("ground") && fallDamage)
         {
             Die();
-
+            s.PlayMusic();
 
         }
         if (collision.gameObject.CompareTag("crate") && fallDamage)
@@ -177,6 +188,7 @@ public class movement : MonoBehaviour
     void Die()
     {
         GameObject o = Instantiate(em.corpse);
+        s.PlayMusic();
         o.transform.position = em.player.transform.position;
         isDead = true;
 

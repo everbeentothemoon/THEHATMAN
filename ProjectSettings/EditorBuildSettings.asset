@@ -9,12 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/playVideo.unity
     guid: 7e9c82a7ee155ff45b50d8d9d2c14c39
   - enabled: 1
-    path: Assets/Scenes/Level (1).unity
-    guid: ce4baaf0e008f494e8c543127192cf7e
-  - enabled: 1
     path: Assets/Scenes/Player.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/win.unity
+    guid: 92a8ec90aa72f6b4ea526e326d1bf805
   m_configObjects: {}

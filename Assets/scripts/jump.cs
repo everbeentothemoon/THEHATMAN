@@ -12,6 +12,8 @@ public class jump : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
 
+    private bool canJump = true;
+
     private void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
@@ -23,7 +25,7 @@ public class jump : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         // Jump when the Jump button (e.g., Space) is pressed and the character is grounded
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && canJump)
         {
             Jump();
         }
