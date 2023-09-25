@@ -27,6 +27,7 @@ public class movement : MonoBehaviour
     public GameObject left;
     public GameObject right;
 
+<<<<<<< Updated upstream
     [Header("Anim")]
     private Animator animator;
 
@@ -35,6 +36,9 @@ public class movement : MonoBehaviour
 
     private SpriteRenderer sr;
     [SerializeField] private bool facingRight = true;
+=======
+    public bool isShiftKeyPressed = false;
+>>>>>>> Stashed changes
 
     private void Start()
     {
@@ -76,6 +80,17 @@ public class movement : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
         }*/
+
+        if (Input.GetKey(KeyCode.LeftShift) && !isShiftKeyPressed)
+        {
+            isShiftKeyPressed = true;
+            Die(); // Call the method here
+        }
+
+        if (!Input.GetKey(KeyCode.LeftShift))
+        {
+            isShiftKeyPressed = false;
+        }
 
         float horizontalInput = Input.GetAxis("Horizontal");
 
@@ -197,6 +212,12 @@ public class movement : MonoBehaviour
         if (collision.gameObject.CompareTag("ground") && fallDamage)
         {
             Die();
+
+            
+        }
+        if (collision.gameObject.CompareTag("crate") && fallDamage)
+        {
+            fallDamage = false;
         }
     }
 

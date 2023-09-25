@@ -337,6 +337,7 @@ GameObject:
   - component: {fileID: 32559071}
   - component: {fileID: 32559074}
   - component: {fileID: 32559073}
+  - component: {fileID: 32559075}
   m_Layer: 0
   m_Name: Spike (44)
   m_TagString: Untagged
@@ -449,6 +450,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &32559075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32559070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &62423709
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,6 +475,7 @@ GameObject:
   - component: {fileID: 62423711}
   - component: {fileID: 62423710}
   - component: {fileID: 62423712}
+  - component: {fileID: 62423713}
   m_Layer: 0
   m_Name: bloodyspike (46)
   m_TagString: Untagged
@@ -560,6 +576,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &62423713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62423709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &65034862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -680,6 +710,7 @@ GameObject:
   - component: {fileID: 75894928}
   - component: {fileID: 75894927}
   - component: {fileID: 75894929}
+  - component: {fileID: 75894930}
   m_Layer: 0
   m_Name: bloodyspike (67)
   m_TagString: Untagged
@@ -780,6 +811,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &75894930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75894926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &80700455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -797,7 +842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2808776
+      value: 1.3271685
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_LocalScale.y
@@ -805,7 +850,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.74758
+      value: 3.77072
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -866,6 +911,7 @@ GameObject:
   - component: {fileID: 80821106}
   - component: {fileID: 80821109}
   - component: {fileID: 80821108}
+  - component: {fileID: 80821110}
   m_Layer: 0
   m_Name: Spike (63)
   m_TagString: Untagged
@@ -978,6 +1024,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!1 &85440039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,11 +1060,15 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &85440041
+=======
+--- !u!114 &80821110
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 85440039}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1096,6 +1147,16 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+=======
+  m_GameObject: {fileID: 80821105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
+>>>>>>> Stashed changes
 --- !u!1 &86244358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,6 +1168,7 @@ GameObject:
   - component: {fileID: 86244360}
   - component: {fileID: 86244359}
   - component: {fileID: 86244361}
+  - component: {fileID: 86244362}
   m_Layer: 0
   m_Name: bloodyspike (48)
   m_TagString: Untagged
@@ -1207,6 +1269,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &86244362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86244358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &91390965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,7 +1340,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -1303,6 +1379,7 @@ GameObject:
   - component: {fileID: 93846527}
   - component: {fileID: 93846530}
   - component: {fileID: 93846529}
+  - component: {fileID: 93846531}
   m_Layer: 0
   m_Name: Spike (24)
   m_TagString: Untagged
@@ -1415,6 +1492,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &93846531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93846526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &113761892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,6 +1517,7 @@ GameObject:
   - component: {fileID: 113761894}
   - component: {fileID: 113761893}
   - component: {fileID: 113761895}
+  - component: {fileID: 113761896}
   m_Layer: 0
   m_Name: bloodyspike (34)
   m_TagString: Untagged
@@ -1526,6 +1618,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &113761896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113761892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &126648024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1538,6 +1644,7 @@ GameObject:
   - component: {fileID: 126648025}
   - component: {fileID: 126648028}
   - component: {fileID: 126648027}
+  - component: {fileID: 126648029}
   m_Layer: 0
   m_Name: Spike (37)
   m_TagString: Untagged
@@ -1650,6 +1757,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &126648029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126648024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &130800829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,7 +1844,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -111
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1860,6 +1981,7 @@ GameObject:
   - component: {fileID: 144973318}
   - component: {fileID: 144973321}
   - component: {fileID: 144973320}
+  - component: {fileID: 144973322}
   m_Layer: 0
   m_Name: Spike (43)
   m_TagString: Untagged
@@ -1972,6 +2094,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &144973322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144973317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &146156835
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,7 +2165,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -2067,6 +2203,7 @@ GameObject:
   - component: {fileID: 147260370}
   - component: {fileID: 147260369}
   - component: {fileID: 147260371}
+  - component: {fileID: 147260372}
   m_Layer: 0
   m_Name: bloodyspike (35)
   m_TagString: Untagged
@@ -2167,6 +2304,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &147260372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147260368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &150184183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,6 +2329,7 @@ GameObject:
   - component: {fileID: 150184185}
   - component: {fileID: 150184184}
   - component: {fileID: 150184186}
+  - component: {fileID: 150184187}
   m_Layer: 0
   m_Name: bloodyspike (23)
   m_TagString: Untagged
@@ -2278,6 +2430,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &150184187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150184183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &154049656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2290,6 +2456,7 @@ GameObject:
   - component: {fileID: 154049657}
   - component: {fileID: 154049660}
   - component: {fileID: 154049659}
+  - component: {fileID: 154049661}
   m_Layer: 0
   m_Name: Spike (36)
   m_TagString: Untagged
@@ -2402,6 +2569,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &154049661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154049656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &165031788
 GameObject:
   m_ObjectHideFlags: 0
@@ -2413,6 +2594,7 @@ GameObject:
   - component: {fileID: 165031790}
   - component: {fileID: 165031789}
   - component: {fileID: 165031791}
+  - component: {fileID: 165031792}
   m_Layer: 0
   m_Name: bloodyspike (15)
   m_TagString: Untagged
@@ -2513,6 +2695,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &165031792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165031788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &169569291
 GameObject:
   m_ObjectHideFlags: 0
@@ -2524,6 +2720,7 @@ GameObject:
   - component: {fileID: 169569293}
   - component: {fileID: 169569292}
   - component: {fileID: 169569294}
+  - component: {fileID: 169569295}
   m_Layer: 0
   m_Name: bloodyspike (49)
   m_TagString: Untagged
@@ -2624,6 +2821,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &169569295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169569291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &174039680
 GameObject:
   m_ObjectHideFlags: 0
@@ -2696,7 +2907,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2765,7 +2976,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -2864,7 +3075,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -2887,6 +3098,7 @@ GameObject:
   - component: {fileID: 209745658}
   - component: {fileID: 209745657}
   - component: {fileID: 209745659}
+  - component: {fileID: 209745660}
   m_Layer: 0
   m_Name: bloodyspike (52)
   m_TagString: Untagged
@@ -2987,6 +3199,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &209745660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209745656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &221780995
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,7 +3270,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -3291,7 +3517,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3389,6 +3615,7 @@ GameObject:
   - component: {fileID: 256179803}
   - component: {fileID: 256179806}
   - component: {fileID: 256179805}
+  - component: {fileID: 256179807}
   m_Layer: 0
   m_Name: Spike (23)
   m_TagString: Untagged
@@ -3501,6 +3728,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &256179807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256179802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &262578293
 GameObject:
   m_ObjectHideFlags: 0
@@ -3510,6 +3751,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 262578294}
+  - component: {fileID: 262578296}
+  - component: {fileID: 262578295}
   m_Layer: 0
   m_Name: portal
   m_TagString: Untagged
@@ -3536,6 +3779,115 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &262578295
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262578293}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0c071295b59df104780b8da88ec4d9a0, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &262578296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262578293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f4213482cdef2e4798f82cf0ccd2ce9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 262578295}
 --- !u!1 &273047806
 GameObject:
   m_ObjectHideFlags: 0
@@ -3548,6 +3900,7 @@ GameObject:
   - component: {fileID: 273047807}
   - component: {fileID: 273047810}
   - component: {fileID: 273047809}
+  - component: {fileID: 273047811}
   m_Layer: 0
   m_Name: Spike (45)
   m_TagString: Untagged
@@ -3660,6 +4013,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &273047811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273047806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &276505054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3751,11 +4118,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4036441873964941747, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.502
+      value: -0.487
       objectReference: {fileID: 0}
     - target: {fileID: 4036441875487400752, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
       propertyPath: m_Size.y
-      value: 2.1727295
+      value: 2.1495361
       objectReference: {fileID: 0}
     - target: {fileID: 4036441875487400752, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
       propertyPath: m_Enabled
@@ -3763,7 +4130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4036441875487400752, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
       propertyPath: m_Offset.y
-      value: 0.58636475
+      value: 0.5979614
       objectReference: {fileID: 0}
     - target: {fileID: 4036441875487400753, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
       propertyPath: m_Color.a
@@ -3811,11 +4178,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4036441875487400758, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.5
+      value: 27.15
       objectReference: {fileID: 0}
     - target: {fileID: 4036441875487400758, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 406
+      value: 397.87
       objectReference: {fileID: 0}
     - target: {fileID: 4036441875487400758, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3931,7 +4298,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3954,6 +4321,7 @@ GameObject:
   - component: {fileID: 295853357}
   - component: {fileID: 295853356}
   - component: {fileID: 295853359}
+  - component: {fileID: 295853360}
   m_Layer: 0
   m_Name: Wall Spikes2 (2)
   m_TagString: Untagged
@@ -4054,6 +4422,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.96, y: 0.96}
   m_EdgeRadius: 0
+--- !u!114 &295853360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295853355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &306957384
 GameObject:
   m_ObjectHideFlags: 0
@@ -4065,6 +4447,7 @@ GameObject:
   - component: {fileID: 306957386}
   - component: {fileID: 306957385}
   - component: {fileID: 306957387}
+  - component: {fileID: 306957388}
   m_Layer: 0
   m_Name: bloodyspike (69)
   m_TagString: Untagged
@@ -4165,6 +4548,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &306957388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306957384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &308441525
 GameObject:
   m_ObjectHideFlags: 0
@@ -4237,7 +4634,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -4261,6 +4658,7 @@ GameObject:
   - component: {fileID: 310417866}
   - component: {fileID: 310417869}
   - component: {fileID: 310417868}
+  - component: {fileID: 310417870}
   m_Layer: 0
   m_Name: Spike (15)
   m_TagString: Untagged
@@ -4373,6 +4771,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &310417870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310417865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &322343749
 GameObject:
   m_ObjectHideFlags: 0
@@ -4384,6 +4796,7 @@ GameObject:
   - component: {fileID: 322343751}
   - component: {fileID: 322343750}
   - component: {fileID: 322343752}
+  - component: {fileID: 322343753}
   m_Layer: 0
   m_Name: bloodyspike (55)
   m_TagString: Untagged
@@ -4484,6 +4897,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &322343753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322343749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &341340310
 GameObject:
   m_ObjectHideFlags: 0
@@ -4496,6 +4923,7 @@ GameObject:
   - component: {fileID: 341340311}
   - component: {fileID: 341340314}
   - component: {fileID: 341340313}
+  - component: {fileID: 341340315}
   m_Layer: 0
   m_Name: Spike (19)
   m_TagString: Untagged
@@ -4608,6 +5036,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &341340315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341340310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &349827104
 GameObject:
   m_ObjectHideFlags: 0
@@ -4726,6 +5168,7 @@ GameObject:
   - component: {fileID: 356502796}
   - component: {fileID: 356502799}
   - component: {fileID: 356502798}
+  - component: {fileID: 356502800}
   m_Layer: 0
   m_Name: Spike (25)
   m_TagString: Untagged
@@ -4838,6 +5281,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &356502800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356502795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &366411147
 GameObject:
   m_ObjectHideFlags: 0
@@ -4850,6 +5307,7 @@ GameObject:
   - component: {fileID: 366411148}
   - component: {fileID: 366411151}
   - component: {fileID: 366411150}
+  - component: {fileID: 366411152}
   m_Layer: 0
   m_Name: Spike (49)
   m_TagString: Untagged
@@ -4962,6 +5420,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &366411152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366411147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &370412973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4974,6 +5446,7 @@ GameObject:
   - component: {fileID: 370412974}
   - component: {fileID: 370412977}
   - component: {fileID: 370412976}
+  - component: {fileID: 370412978}
   m_Layer: 0
   m_Name: Spike (55)
   m_TagString: Untagged
@@ -5086,6 +5559,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &370412978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370412973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &373704783
 GameObject:
   m_ObjectHideFlags: 0
@@ -5097,6 +5584,7 @@ GameObject:
   - component: {fileID: 373704785}
   - component: {fileID: 373704784}
   - component: {fileID: 373704786}
+  - component: {fileID: 373704787}
   m_Layer: 0
   m_Name: bloodyspike (33)
   m_TagString: Untagged
@@ -5197,6 +5685,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &373704787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373704783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &375161935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5282,6 +5784,7 @@ GameObject:
   - component: {fileID: 376327018}
   - component: {fileID: 376327017}
   - component: {fileID: 376327019}
+  - component: {fileID: 376327020}
   m_Layer: 0
   m_Name: bloodyspike (11)
   m_TagString: Untagged
@@ -5382,6 +5885,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &376327020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376327016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &383015068
 GameObject:
   m_ObjectHideFlags: 0
@@ -5439,7 +5956,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -5478,6 +5995,7 @@ GameObject:
   - component: {fileID: 384999582}
   - component: {fileID: 384999585}
   - component: {fileID: 384999584}
+  - component: {fileID: 384999586}
   m_Layer: 0
   m_Name: Spike (30)
   m_TagString: Untagged
@@ -5590,6 +6108,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &384999586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384999581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &399797294
 GameObject:
   m_ObjectHideFlags: 0
@@ -5602,6 +6134,7 @@ GameObject:
   - component: {fileID: 399797295}
   - component: {fileID: 399797298}
   - component: {fileID: 399797297}
+  - component: {fileID: 399797299}
   m_Layer: 0
   m_Name: Spike (22)
   m_TagString: Untagged
@@ -5714,6 +6247,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &399797299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399797294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &407883799
 GameObject:
   m_ObjectHideFlags: 0
@@ -5786,7 +6333,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -5809,6 +6356,7 @@ GameObject:
   - component: {fileID: 414309319}
   - component: {fileID: 414309318}
   - component: {fileID: 414309320}
+  - component: {fileID: 414309321}
   m_Layer: 0
   m_Name: bloodyspike (26)
   m_TagString: Untagged
@@ -5909,6 +6457,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &414309321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414309317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &415094271
 GameObject:
   m_ObjectHideFlags: 0
@@ -5920,6 +6482,7 @@ GameObject:
   - component: {fileID: 415094273}
   - component: {fileID: 415094272}
   - component: {fileID: 415094274}
+  - component: {fileID: 415094275}
   m_Layer: 0
   m_Name: bloodyspike (50)
   m_TagString: Untagged
@@ -6020,6 +6583,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &415094275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415094271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &420185886
 GameObject:
   m_ObjectHideFlags: 0
@@ -6031,6 +6608,7 @@ GameObject:
   - component: {fileID: 420185888}
   - component: {fileID: 420185887}
   - component: {fileID: 420185889}
+  - component: {fileID: 420185890}
   m_Layer: 0
   m_Name: bloodyspike (16)
   m_TagString: Untagged
@@ -6131,6 +6709,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &420185890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420185886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &428419886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6277,7 +6869,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -6361,7 +6953,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -6445,7 +7037,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -6543,6 +7135,7 @@ GameObject:
   - component: {fileID: 475973411}
   - component: {fileID: 475973414}
   - component: {fileID: 475973413}
+  - component: {fileID: 475973415}
   m_Layer: 0
   m_Name: Spike (7)
   m_TagString: Untagged
@@ -6655,6 +7248,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &475973415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475973410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &484096976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6809,6 +7416,7 @@ GameObject:
   - component: {fileID: 489397422}
   - component: {fileID: 489397421}
   - component: {fileID: 489397423}
+  - component: {fileID: 489397424}
   m_Layer: 0
   m_Name: bloodyspike (24)
   m_TagString: Untagged
@@ -6909,6 +7517,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &489397424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489397420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &491382067
 GameObject:
   m_ObjectHideFlags: 0
@@ -6920,6 +7542,7 @@ GameObject:
   - component: {fileID: 491382069}
   - component: {fileID: 491382068}
   - component: {fileID: 491382070}
+  - component: {fileID: 491382071}
   m_Layer: 0
   m_Name: bloodyspike (5)
   m_TagString: Untagged
@@ -7020,6 +7643,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &491382071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 491382067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &495489355
 GameObject:
   m_ObjectHideFlags: 0
@@ -7032,6 +7669,7 @@ GameObject:
   - component: {fileID: 495489356}
   - component: {fileID: 495489359}
   - component: {fileID: 495489358}
+  - component: {fileID: 495489360}
   m_Layer: 0
   m_Name: Spike (4)
   m_TagString: Untagged
@@ -7144,6 +7782,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &495489360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495489355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &501919550
 GameObject:
   m_ObjectHideFlags: 0
@@ -7201,7 +7853,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -7239,6 +7891,7 @@ GameObject:
   - component: {fileID: 503983585}
   - component: {fileID: 503983584}
   - component: {fileID: 503983586}
+  - component: {fileID: 503983587}
   m_Layer: 0
   m_Name: bloodyspike (22)
   m_TagString: Untagged
@@ -7339,6 +7992,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &503983587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503983583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &509643462
 GameObject:
   m_ObjectHideFlags: 0
@@ -7351,6 +8018,7 @@ GameObject:
   - component: {fileID: 509643463}
   - component: {fileID: 509643466}
   - component: {fileID: 509643465}
+  - component: {fileID: 509643467}
   m_Layer: 0
   m_Name: Spike (56)
   m_TagString: Untagged
@@ -7463,6 +8131,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &509643467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509643462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &515839454
 GameObject:
   m_ObjectHideFlags: 0
@@ -7535,7 +8217,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -11
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -7706,6 +8388,7 @@ GameObject:
   - component: {fileID: 527649993}
   - component: {fileID: 527649992}
   - component: {fileID: 527649994}
+  - component: {fileID: 527649995}
   m_Layer: 0
   m_Name: bloodyspike (42)
   m_TagString: Untagged
@@ -7806,6 +8489,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &527649995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527649991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &532471143
 GameObject:
   m_ObjectHideFlags: 0
@@ -7817,6 +8514,7 @@ GameObject:
   - component: {fileID: 532471145}
   - component: {fileID: 532471144}
   - component: {fileID: 532471147}
+  - component: {fileID: 532471148}
   m_Layer: 0
   m_Name: Wall Spikes3 (1)
   m_TagString: Untagged
@@ -7917,6 +8615,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.96, y: 0.96}
   m_EdgeRadius: 0
+--- !u!114 &532471148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532471143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &533950497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8048,7 +8760,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -8086,6 +8798,7 @@ GameObject:
   - component: {fileID: 553648953}
   - component: {fileID: 553648952}
   - component: {fileID: 553648954}
+  - component: {fileID: 553648955}
   m_Layer: 0
   m_Name: bloodyspike (1)
   m_TagString: Untagged
@@ -8186,6 +8899,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &553648955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553648951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &555288523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8272,6 +8999,7 @@ GameObject:
   - component: {fileID: 559359809}
   - component: {fileID: 559359812}
   - component: {fileID: 559359811}
+  - component: {fileID: 559359813}
   m_Layer: 0
   m_Name: Spike (14)
   m_TagString: Untagged
@@ -8384,6 +9112,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &559359813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559359808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &561388066
 GameObject:
   m_ObjectHideFlags: 0
@@ -8396,6 +9138,7 @@ GameObject:
   - component: {fileID: 561388067}
   - component: {fileID: 561388070}
   - component: {fileID: 561388069}
+  - component: {fileID: 561388071}
   m_Layer: 0
   m_Name: Spike (48)
   m_TagString: Untagged
@@ -8508,6 +9251,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &561388071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561388066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &580427347
 GameObject:
   m_ObjectHideFlags: 0
@@ -8565,7 +9322,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -8649,7 +9406,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -8687,6 +9444,7 @@ GameObject:
   - component: {fileID: 595282670}
   - component: {fileID: 595282669}
   - component: {fileID: 595282671}
+  - component: {fileID: 595282672}
   m_Layer: 0
   m_Name: bloodyspike (9)
   m_TagString: Untagged
@@ -8787,6 +9545,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &595282672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595282668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &596737991
 GameObject:
   m_ObjectHideFlags: 0
@@ -8844,7 +9616,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -8943,7 +9715,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8967,6 +9739,7 @@ GameObject:
   - component: {fileID: 602976067}
   - component: {fileID: 602976070}
   - component: {fileID: 602976069}
+  - component: {fileID: 602976071}
   m_Layer: 0
   m_Name: Spike (12)
   m_TagString: Untagged
@@ -9079,6 +9852,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &602976071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602976066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &614038630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9239,6 +10026,7 @@ GameObject:
   - component: {fileID: 633498714}
   - component: {fileID: 633498717}
   - component: {fileID: 633498716}
+  - component: {fileID: 633498718}
   m_Layer: 0
   m_Name: Spike (66)
   m_TagString: Untagged
@@ -9351,6 +10139,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &633498718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633498713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &642894420
 GameObject:
   m_ObjectHideFlags: 0
@@ -9363,6 +10165,7 @@ GameObject:
   - component: {fileID: 642894421}
   - component: {fileID: 642894424}
   - component: {fileID: 642894423}
+  - component: {fileID: 642894425}
   m_Layer: 0
   m_Name: Spike (29)
   m_TagString: Untagged
@@ -9475,6 +10278,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &642894425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642894420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &644949607
 GameObject:
   m_ObjectHideFlags: 0
@@ -9547,7 +10364,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -9571,6 +10388,7 @@ GameObject:
   - component: {fileID: 647526801}
   - component: {fileID: 647526804}
   - component: {fileID: 647526803}
+  - component: {fileID: 647526805}
   m_Layer: 0
   m_Name: Spike (57)
   m_TagString: Untagged
@@ -9683,6 +10501,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &647526805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647526800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &653553115
 GameObject:
   m_ObjectHideFlags: 0
@@ -9755,7 +10587,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9839,7 +10671,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9862,6 +10694,7 @@ GameObject:
   - component: {fileID: 668920480}
   - component: {fileID: 668920479}
   - component: {fileID: 668920481}
+  - component: {fileID: 668920482}
   m_Layer: 0
   m_Name: bloodyspike (10)
   m_TagString: Untagged
@@ -9962,6 +10795,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &668920482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668920478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &700574843
 GameObject:
   m_ObjectHideFlags: 0
@@ -10034,7 +10881,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -10131,6 +10978,7 @@ GameObject:
   - component: {fileID: 730554520}
   - component: {fileID: 730554519}
   - component: {fileID: 730554521}
+  - component: {fileID: 730554522}
   m_Layer: 0
   m_Name: bloodyspike (51)
   m_TagString: Untagged
@@ -10231,6 +11079,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &730554522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730554518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &731410480
 GameObject:
   m_ObjectHideFlags: 0
@@ -10242,6 +11104,7 @@ GameObject:
   - component: {fileID: 731410482}
   - component: {fileID: 731410481}
   - component: {fileID: 731410484}
+  - component: {fileID: 731410485}
   m_Layer: 0
   m_Name: Wall Spikes3 (2)
   m_TagString: Untagged
@@ -10342,6 +11205,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.96, y: 0.96}
   m_EdgeRadius: 0
+--- !u!114 &731410485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731410480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &744457402
 GameObject:
   m_ObjectHideFlags: 0
@@ -10354,6 +11231,7 @@ GameObject:
   - component: {fileID: 744457403}
   - component: {fileID: 744457406}
   - component: {fileID: 744457405}
+  - component: {fileID: 744457407}
   m_Layer: 0
   m_Name: Spike (34)
   m_TagString: Untagged
@@ -10466,6 +11344,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &744457407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744457402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &744984905
 GameObject:
   m_ObjectHideFlags: 0
@@ -10656,6 +11548,7 @@ GameObject:
   - component: {fileID: 749038380}
   - component: {fileID: 749038379}
   - component: {fileID: 749038381}
+  - component: {fileID: 749038382}
   m_Layer: 0
   m_Name: bloodyspike (60)
   m_TagString: Untagged
@@ -10756,6 +11649,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &749038382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749038378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &755492461
 GameObject:
   m_ObjectHideFlags: 0
@@ -10767,6 +11674,7 @@ GameObject:
   - component: {fileID: 755492463}
   - component: {fileID: 755492462}
   - component: {fileID: 755492464}
+  - component: {fileID: 755492465}
   m_Layer: 0
   m_Name: bloodyspike (53)
   m_TagString: Untagged
@@ -10867,6 +11775,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &755492465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755492461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &761096422
 GameObject:
   m_ObjectHideFlags: 0
@@ -10879,6 +11801,7 @@ GameObject:
   - component: {fileID: 761096423}
   - component: {fileID: 761096426}
   - component: {fileID: 761096425}
+  - component: {fileID: 761096427}
   m_Layer: 0
   m_Name: Spike (10)
   m_TagString: Untagged
@@ -10991,6 +11914,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &761096427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761096422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &765444178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11215,7 +12152,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -11238,6 +12175,7 @@ GameObject:
   - component: {fileID: 788249750}
   - component: {fileID: 788249749}
   - component: {fileID: 788249751}
+  - component: {fileID: 788249752}
   m_Layer: 0
   m_Name: bloodyspike (12)
   m_TagString: Untagged
@@ -11338,6 +12276,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &788249752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788249748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &794796320
 GameObject:
   m_ObjectHideFlags: 0
@@ -11410,7 +12362,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11433,6 +12385,7 @@ GameObject:
   - component: {fileID: 820658310}
   - component: {fileID: 820658309}
   - component: {fileID: 820658311}
+  - component: {fileID: 820658312}
   m_Layer: 0
   m_Name: bloodyspike (59)
   m_TagString: Untagged
@@ -11533,6 +12486,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &820658312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820658308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &835524861
 GameObject:
   m_ObjectHideFlags: 0
@@ -11544,6 +12511,7 @@ GameObject:
   - component: {fileID: 835524863}
   - component: {fileID: 835524862}
   - component: {fileID: 835524864}
+  - component: {fileID: 835524865}
   m_Layer: 0
   m_Name: bloodyspike (65)
   m_TagString: Untagged
@@ -11644,6 +12612,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &835524865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835524861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &843530006
 GameObject:
   m_ObjectHideFlags: 0
@@ -11656,6 +12638,7 @@ GameObject:
   - component: {fileID: 843530007}
   - component: {fileID: 843530010}
   - component: {fileID: 843530009}
+  - component: {fileID: 843530011}
   m_Layer: 0
   m_Name: Spike (62)
   m_TagString: Untagged
@@ -11768,6 +12751,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &843530011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843530006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &845085083
 GameObject:
   m_ObjectHideFlags: 0
@@ -11780,6 +12777,7 @@ GameObject:
   - component: {fileID: 845085084}
   - component: {fileID: 845085087}
   - component: {fileID: 845085086}
+  - component: {fileID: 845085088}
   m_Layer: 0
   m_Name: Spike (46)
   m_TagString: Untagged
@@ -11892,6 +12890,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &845085088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845085083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &852196896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12042,7 +13054,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1609478068, guid: 66c6af7c5454fd8468cd1105a1661021, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12139,6 +13151,7 @@ GameObject:
   - component: {fileID: 866037856}
   - component: {fileID: 866037855}
   - component: {fileID: 866037857}
+  - component: {fileID: 866037858}
   m_Layer: 0
   m_Name: bloodyspike (58)
   m_TagString: Untagged
@@ -12239,6 +13252,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &866037858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866037854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &868065308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12325,6 +13352,7 @@ GameObject:
   - component: {fileID: 872602818}
   - component: {fileID: 872602821}
   - component: {fileID: 872602820}
+  - component: {fileID: 872602822}
   m_Layer: 0
   m_Name: Spike (54)
   m_TagString: Untagged
@@ -12437,6 +13465,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &872602822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872602817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &876870591
 GameObject:
   m_ObjectHideFlags: 0
@@ -12598,7 +13640,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -12667,6 +13709,7 @@ GameObject:
   - component: {fileID: 884750192}
   - component: {fileID: 884750195}
   - component: {fileID: 884750194}
+  - component: {fileID: 884750196}
   m_Layer: 0
   m_Name: Spike (61)
   m_TagString: Untagged
@@ -12779,6 +13822,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &884750196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884750191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &885422442
 GameObject:
   m_ObjectHideFlags: 0
@@ -12790,6 +13847,7 @@ GameObject:
   - component: {fileID: 885422444}
   - component: {fileID: 885422443}
   - component: {fileID: 885422445}
+  - component: {fileID: 885422446}
   m_Layer: 0
   m_Name: bloodyspike (7)
   m_TagString: Untagged
@@ -12890,6 +13948,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &885422446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885422442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &891823140
 GameObject:
   m_ObjectHideFlags: 0
@@ -12902,6 +13974,7 @@ GameObject:
   - component: {fileID: 891823141}
   - component: {fileID: 891823144}
   - component: {fileID: 891823143}
+  - component: {fileID: 891823145}
   m_Layer: 0
   m_Name: Spike (11)
   m_TagString: Untagged
@@ -13014,6 +14087,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &891823145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891823140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &897880165
 GameObject:
   m_ObjectHideFlags: 0
@@ -13024,6 +14111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 897880167}
   - component: {fileID: 897880166}
+  - component: {fileID: 897880168}
   m_Layer: 0
   m_Name: Wall Spikes3
   m_TagString: Untagged
@@ -13098,6 +14186,20 @@ Transform:
   m_Father: {fileID: 1357704541}
   m_RootOrder: 146
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &897880168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897880165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &903921809
 GameObject:
   m_ObjectHideFlags: 0
@@ -13110,6 +14212,7 @@ GameObject:
   - component: {fileID: 903921810}
   - component: {fileID: 903921813}
   - component: {fileID: 903921812}
+  - component: {fileID: 903921814}
   m_Layer: 0
   m_Name: Spike (18)
   m_TagString: Untagged
@@ -13222,6 +14325,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &903921814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903921809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &905039211
 GameObject:
   m_ObjectHideFlags: 0
@@ -13234,6 +14351,7 @@ GameObject:
   - component: {fileID: 905039212}
   - component: {fileID: 905039215}
   - component: {fileID: 905039214}
+  - component: {fileID: 905039216}
   m_Layer: 0
   m_Name: Spike (32)
   m_TagString: Untagged
@@ -13346,6 +14464,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &905039216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905039211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &914767605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13423,6 +14555,7 @@ GameObject:
   - component: {fileID: 917476160}
   - component: {fileID: 917476163}
   - component: {fileID: 917476162}
+  - component: {fileID: 917476164}
   m_Layer: 0
   m_Name: Spike (21)
   m_TagString: Untagged
@@ -13535,6 +14668,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &917476164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917476159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &925783700
 GameObject:
   m_ObjectHideFlags: 0
@@ -13546,6 +14693,7 @@ GameObject:
   - component: {fileID: 925783702}
   - component: {fileID: 925783701}
   - component: {fileID: 925783703}
+  - component: {fileID: 925783704}
   m_Layer: 0
   m_Name: bloodyspike (61)
   m_TagString: Untagged
@@ -13646,6 +14794,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &925783704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925783700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &947376190
 GameObject:
   m_ObjectHideFlags: 0
@@ -13718,7 +14880,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -14055,7 +15217,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14079,6 +15241,7 @@ GameObject:
   - component: {fileID: 964276423}
   - component: {fileID: 964276426}
   - component: {fileID: 964276425}
+  - component: {fileID: 964276427}
   m_Layer: 0
   m_Name: Spike (2)
   m_TagString: Untagged
@@ -14191,6 +15354,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &964276427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964276422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!4 &976076697 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
@@ -14207,6 +15384,7 @@ GameObject:
   - component: {fileID: 978418187}
   - component: {fileID: 978418186}
   - component: {fileID: 978418188}
+  - component: {fileID: 978418189}
   m_Layer: 0
   m_Name: bloodyspike (14)
   m_TagString: Untagged
@@ -14307,6 +15485,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &978418189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978418185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &980936191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14393,6 +15585,7 @@ GameObject:
   - component: {fileID: 982198081}
   - component: {fileID: 982198084}
   - component: {fileID: 982198083}
+  - component: {fileID: 982198085}
   m_Layer: 0
   m_Name: Spike (13)
   m_TagString: Untagged
@@ -14505,6 +15698,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &982198085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982198080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &985686086
 GameObject:
   m_ObjectHideFlags: 0
@@ -14549,6 +15756,7 @@ GameObject:
   - component: {fileID: 992843565}
   - component: {fileID: 992843568}
   - component: {fileID: 992843567}
+  - component: {fileID: 992843569}
   m_Layer: 0
   m_Name: Spike (67)
   m_TagString: Untagged
@@ -14661,6 +15869,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &992843569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992843564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1002698468
 GameObject:
   m_ObjectHideFlags: 0
@@ -14733,7 +15955,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: c192a4684504b374c8085890ce25660f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14802,7 +16024,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -14915,6 +16137,7 @@ GameObject:
   - component: {fileID: 1024766872}
   - component: {fileID: 1024766875}
   - component: {fileID: 1024766874}
+  - component: {fileID: 1024766876}
   m_Layer: 0
   m_Name: Spike (26)
   m_TagString: Untagged
@@ -15027,6 +16250,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1024766876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024766871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1027493461
 GameObject:
   m_ObjectHideFlags: 0
@@ -15099,7 +16336,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15123,6 +16360,7 @@ GameObject:
   - component: {fileID: 1030185795}
   - component: {fileID: 1030185798}
   - component: {fileID: 1030185797}
+  - component: {fileID: 1030185799}
   m_Layer: 0
   m_Name: Spike (65)
   m_TagString: Untagged
@@ -15235,6 +16473,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1030185799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030185794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1034431231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15340,9 +16592,13 @@ MonoBehaviour:
   enemy: {fileID: 2071250342}
   left: {fileID: 1868879749}
   right: {fileID: 1926414780}
+<<<<<<< Updated upstream
   isWalking: 0
   isJumping: 0
   facingRight: 0
+=======
+  isShiftKeyPressed: 0
+>>>>>>> Stashed changes
 --- !u!114 &1038001543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15470,7 +16726,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15554,7 +16810,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -15924,6 +17180,7 @@ GameObject:
   - component: {fileID: 1072793777}
   - component: {fileID: 1072793776}
   - component: {fileID: 1072793778}
+  - component: {fileID: 1072793779}
   m_Layer: 0
   m_Name: bloodyspike (18)
   m_TagString: Untagged
@@ -16024,6 +17281,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1072793779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072793775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1080973023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3001729570015460855, guid: e3e8bfd1858661d4c8802e1c7d4bcdb2, type: 3}
@@ -16273,6 +17544,7 @@ GameObject:
   - component: {fileID: 1097115465}
   - component: {fileID: 1097115468}
   - component: {fileID: 1097115467}
+  - component: {fileID: 1097115469}
   m_Layer: 0
   m_Name: Spike (39)
   m_TagString: Untagged
@@ -16385,6 +17657,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1097115469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097115464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1105835792
 GameObject:
   m_ObjectHideFlags: 0
@@ -16457,7 +17743,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -16629,6 +17915,7 @@ GameObject:
   - component: {fileID: 1158389055}
   - component: {fileID: 1158389058}
   - component: {fileID: 1158389057}
+  - component: {fileID: 1158389059}
   m_Layer: 0
   m_Name: Spike (16)
   m_TagString: Untagged
@@ -16741,6 +18028,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1158389059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158389054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1180440561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16905,6 +18206,7 @@ GameObject:
   - component: {fileID: 1188595369}
   - component: {fileID: 1188595372}
   - component: {fileID: 1188595371}
+  - component: {fileID: 1188595373}
   m_Layer: 0
   m_Name: Spike (31)
   m_TagString: Untagged
@@ -17017,6 +18319,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1188595373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188595368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1192862274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17288,7 +18604,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17312,6 +18628,7 @@ GameObject:
   - component: {fileID: 1220629848}
   - component: {fileID: 1220629851}
   - component: {fileID: 1220629850}
+  - component: {fileID: 1220629852}
   m_Layer: 0
   m_Name: Spike (33)
   m_TagString: Untagged
@@ -17424,6 +18741,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1220629852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220629847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1221314637
 GameObject:
   m_ObjectHideFlags: 0
@@ -17435,6 +18766,7 @@ GameObject:
   - component: {fileID: 1221314639}
   - component: {fileID: 1221314638}
   - component: {fileID: 1221314640}
+  - component: {fileID: 1221314641}
   m_Layer: 0
   m_Name: bloodyspike (44)
   m_TagString: Untagged
@@ -17535,6 +18867,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1221314641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221314637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1249483970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17612,6 +18958,7 @@ GameObject:
   - component: {fileID: 1260384627}
   - component: {fileID: 1260384630}
   - component: {fileID: 1260384629}
+  - component: {fileID: 1260384631}
   m_Layer: 0
   m_Name: Spike (52)
   m_TagString: Untagged
@@ -17724,6 +19071,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1260384631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260384626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1268991434
 GameObject:
   m_ObjectHideFlags: 0
@@ -17735,6 +19096,7 @@ GameObject:
   - component: {fileID: 1268991436}
   - component: {fileID: 1268991435}
   - component: {fileID: 1268991437}
+  - component: {fileID: 1268991438}
   m_Layer: 0
   m_Name: bloodyspike (17)
   m_TagString: Untagged
@@ -17835,6 +19197,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1268991438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268991434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1269223355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17998,6 +19374,7 @@ GameObject:
   - component: {fileID: 1305764879}
   - component: {fileID: 1305764878}
   - component: {fileID: 1305764880}
+  - component: {fileID: 1305764881}
   m_Layer: 0
   m_Name: bloodyspike (40)
   m_TagString: Untagged
@@ -18098,6 +19475,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1305764881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305764877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1307819179
 GameObject:
   m_ObjectHideFlags: 0
@@ -18110,6 +19501,7 @@ GameObject:
   - component: {fileID: 1307819180}
   - component: {fileID: 1307819183}
   - component: {fileID: 1307819182}
+  - component: {fileID: 1307819184}
   m_Layer: 0
   m_Name: Spike (42)
   m_TagString: Untagged
@@ -18222,6 +19614,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1307819184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307819179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1318058794
 GameObject:
   m_ObjectHideFlags: 0
@@ -18234,6 +19640,7 @@ GameObject:
   - component: {fileID: 1318058795}
   - component: {fileID: 1318058798}
   - component: {fileID: 1318058797}
+  - component: {fileID: 1318058799}
   m_Layer: 0
   m_Name: Spike (9)
   m_TagString: Untagged
@@ -18346,6 +19753,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1318058799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318058794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!4 &1321155922 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4036441873964941747, guid: 12d14fc6061face4ba1ccff1b809bf7a, type: 3}
@@ -18408,7 +19829,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -18446,6 +19867,7 @@ GameObject:
   - component: {fileID: 1343708429}
   - component: {fileID: 1343708428}
   - component: {fileID: 1343708430}
+  - component: {fileID: 1343708431}
   m_Layer: 0
   m_Name: bloodyspike (8)
   m_TagString: Untagged
@@ -18546,6 +19968,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1343708431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343708427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1357704540
 GameObject:
   m_ObjectHideFlags: 0
@@ -18880,6 +20316,7 @@ GameObject:
   - component: {fileID: 1362323241}
   - component: {fileID: 1362323244}
   - component: {fileID: 1362323243}
+  - component: {fileID: 1362323245}
   m_Layer: 0
   m_Name: Spike (53)
   m_TagString: Untagged
@@ -18992,6 +20429,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1362323245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362323240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1373234461
 GameObject:
   m_ObjectHideFlags: 0
@@ -19003,6 +20454,7 @@ GameObject:
   - component: {fileID: 1373234463}
   - component: {fileID: 1373234462}
   - component: {fileID: 1373234464}
+  - component: {fileID: 1373234465}
   m_Layer: 0
   m_Name: bloodyspike (39)
   m_TagString: Untagged
@@ -19103,6 +20555,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1373234465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373234461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1384929690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19192,6 +20658,7 @@ GameObject:
   - component: {fileID: 1385356759}
   - component: {fileID: 1385356758}
   - component: {fileID: 1385356760}
+  - component: {fileID: 1385356761}
   m_Layer: 0
   m_Name: bloodyspike (45)
   m_TagString: Untagged
@@ -19292,6 +20759,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1385356761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385356757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1393709768
 GameObject:
   m_ObjectHideFlags: 0
@@ -19304,6 +20785,7 @@ GameObject:
   - component: {fileID: 1393709769}
   - component: {fileID: 1393709772}
   - component: {fileID: 1393709771}
+  - component: {fileID: 1393709773}
   m_Layer: 0
   m_Name: Spike (64)
   m_TagString: Untagged
@@ -19416,6 +20898,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1393709773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393709768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1397421604
 GameObject:
   m_ObjectHideFlags: 0
@@ -19488,7 +20984,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19590,6 +21086,7 @@ GameObject:
   - component: {fileID: 1422499478}
   - component: {fileID: 1422499481}
   - component: {fileID: 1422499480}
+  - component: {fileID: 1422499482}
   m_Layer: 0
   m_Name: Spike (69)
   m_TagString: Untagged
@@ -19702,6 +21199,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1422499482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422499477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1425542991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19788,6 +21299,7 @@ GameObject:
   - component: {fileID: 1438082460}
   - component: {fileID: 1438082463}
   - component: {fileID: 1438082462}
+  - component: {fileID: 1438082464}
   m_Layer: 0
   m_Name: Spike (68)
   m_TagString: Untagged
@@ -19900,6 +21412,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1438082464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438082459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1441582397
 GameObject:
   m_ObjectHideFlags: 0
@@ -19911,6 +21437,7 @@ GameObject:
   - component: {fileID: 1441582399}
   - component: {fileID: 1441582398}
   - component: {fileID: 1441582400}
+  - component: {fileID: 1441582401}
   m_Layer: 0
   m_Name: bloodyspike (54)
   m_TagString: Untagged
@@ -20011,6 +21538,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1441582401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441582397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1450788167
 GameObject:
   m_ObjectHideFlags: 0
@@ -20022,6 +21563,7 @@ GameObject:
   - component: {fileID: 1450788169}
   - component: {fileID: 1450788168}
   - component: {fileID: 1450788170}
+  - component: {fileID: 1450788171}
   m_Layer: 0
   m_Name: bloodyspike (63)
   m_TagString: Untagged
@@ -20122,6 +21664,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1450788171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450788167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1457416070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20212,6 +21768,7 @@ GameObject:
   - component: {fileID: 1469116776}
   - component: {fileID: 1469116775}
   - component: {fileID: 1469116777}
+  - component: {fileID: 1469116778}
   m_Layer: 0
   m_Name: bloodyspike (30)
   m_TagString: Untagged
@@ -20312,6 +21869,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1469116778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469116774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1486393635
 GameObject:
   m_ObjectHideFlags: 0
@@ -20323,6 +21894,7 @@ GameObject:
   - component: {fileID: 1486393637}
   - component: {fileID: 1486393636}
   - component: {fileID: 1486393638}
+  - component: {fileID: 1486393639}
   m_Layer: 0
   m_Name: bloodyspike (43)
   m_TagString: Untagged
@@ -20423,6 +21995,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1486393639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486393635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1488113624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20514,7 +22100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.73318714
+      value: 0.7756167
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_LocalScale.y
@@ -20522,7 +22108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.02484
+      value: 4.04605
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31789,6 +33375,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 85, y: -28, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 90, y: -28, z: 0}
     second:
       serializedVersion: 2
@@ -31990,6 +33586,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 84, y: -27, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 85, y: -27, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 7
@@ -35275,7 +36881,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: e56649cce2d238140a0c6a9d767317b0, type: 2}
   - m_RefCount: 97
     m_Data: {fileID: 11400000, guid: bf2a51e3d574b984ebe6089bf0784651, type: 2}
-  - m_RefCount: 151
+  - m_RefCount: 153
     m_Data: {fileID: 11400000, guid: 1ef25ed5b00bf6f468147b7bb608ce97, type: 2}
   - m_RefCount: 108
     m_Data: {fileID: 11400000, guid: 9c027572370e84847b423d260645dfd3, type: 2}
@@ -35314,7 +36920,7 @@ Tilemap:
     m_Data: {fileID: 1491859837, guid: 5b629636d07df4d43af78e7116980659, type: 3}
   - m_RefCount: 97
     m_Data: {fileID: 199249295, guid: 5b629636d07df4d43af78e7116980659, type: 3}
-  - m_RefCount: 151
+  - m_RefCount: 153
     m_Data: {fileID: -1888905745, guid: 5b629636d07df4d43af78e7116980659, type: 3}
   - m_RefCount: 108
     m_Data: {fileID: 1065870432, guid: 5b629636d07df4d43af78e7116980659, type: 3}
@@ -35339,7 +36945,7 @@ Tilemap:
   - m_RefCount: 256
     m_Data: {fileID: 18458631, guid: 5b629636d07df4d43af78e7116980659, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1437
+  - m_RefCount: 1439
     m_Data:
       e00: 1
       e01: 0
@@ -35358,7 +36964,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 1437
+  - m_RefCount: 1439
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -35431,6 +37037,7 @@ GameObject:
   - component: {fileID: 1499813883}
   - component: {fileID: 1499813886}
   - component: {fileID: 1499813885}
+  - component: {fileID: 1499813887}
   m_Layer: 0
   m_Name: Spike (35)
   m_TagString: Untagged
@@ -35543,6 +37150,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1499813887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499813882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1504805235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35628,6 +37249,7 @@ GameObject:
   - component: {fileID: 1510327401}
   - component: {fileID: 1510327400}
   - component: {fileID: 1510327402}
+  - component: {fileID: 1510327403}
   m_Layer: 0
   m_Name: bloodyspike (21)
   m_TagString: Untagged
@@ -35728,6 +37350,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1510327403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510327399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1518503447
 GameObject:
   m_ObjectHideFlags: 0
@@ -35740,6 +37376,7 @@ GameObject:
   - component: {fileID: 1518503448}
   - component: {fileID: 1518503451}
   - component: {fileID: 1518503450}
+  - component: {fileID: 1518503452}
   m_Layer: 0
   m_Name: Spike (6)
   m_TagString: Untagged
@@ -35852,6 +37489,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1518503452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518503447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1531664009
 GameObject:
   m_ObjectHideFlags: 0
@@ -35863,6 +37514,7 @@ GameObject:
   - component: {fileID: 1531664011}
   - component: {fileID: 1531664010}
   - component: {fileID: 1531664012}
+  - component: {fileID: 1531664013}
   m_Layer: 0
   m_Name: bloodyspike (41)
   m_TagString: Untagged
@@ -35963,6 +37615,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1531664013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531664009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1534012384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36040,6 +37706,7 @@ GameObject:
   - component: {fileID: 1535151511}
   - component: {fileID: 1535151515}
   - component: {fileID: 1535151514}
+  - component: {fileID: 1535151516}
   m_Layer: 0
   m_Name: Wall Spikes2
   m_TagString: Untagged
@@ -36166,6 +37833,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.96, y: 0.96}
   m_EdgeRadius: 0
+--- !u!114 &1535151516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535151510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1535450564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36316,7 +37997,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -36340,6 +38021,7 @@ GameObject:
   - component: {fileID: 1543128298}
   - component: {fileID: 1543128301}
   - component: {fileID: 1543128300}
+  - component: {fileID: 1543128302}
   m_Layer: 0
   m_Name: Spike (47)
   m_TagString: Untagged
@@ -36452,6 +38134,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1543128302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543128297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1557587727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36537,6 +38233,7 @@ GameObject:
   - component: {fileID: 1574507150}
   - component: {fileID: 1574507149}
   - component: {fileID: 1574507151}
+  - component: {fileID: 1574507152}
   m_Layer: 0
   m_Name: bloodyspike (27)
   m_TagString: Untagged
@@ -36637,6 +38334,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1574507152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574507148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1577591604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36783,7 +38494,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -36880,6 +38591,7 @@ GameObject:
   - component: {fileID: 1601529780}
   - component: {fileID: 1601529779}
   - component: {fileID: 1601529781}
+  - component: {fileID: 1601529782}
   m_Layer: 0
   m_Name: bloodyspike (32)
   m_TagString: Untagged
@@ -36980,6 +38692,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1601529782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601529778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1603718006
 GameObject:
   m_ObjectHideFlags: 0
@@ -36992,6 +38718,7 @@ GameObject:
   - component: {fileID: 1603718007}
   - component: {fileID: 1603718010}
   - component: {fileID: 1603718009}
+  - component: {fileID: 1603718011}
   m_Layer: 0
   m_Name: Spike (50)
   m_TagString: Untagged
@@ -37104,6 +38831,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1603718011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603718006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1609410263
 GameObject:
   m_ObjectHideFlags: 0
@@ -37176,7 +38917,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -37260,7 +39001,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -37518,7 +39259,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -37557,6 +39298,7 @@ GameObject:
   - component: {fileID: 1653487545}
   - component: {fileID: 1653487548}
   - component: {fileID: 1653487547}
+  - component: {fileID: 1653487549}
   m_Layer: 0
   m_Name: Spike
   m_TagString: Untagged
@@ -37669,6 +39411,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1653487549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653487544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1657744368
 GameObject:
   m_ObjectHideFlags: 0
@@ -37680,6 +39436,7 @@ GameObject:
   - component: {fileID: 1657744370}
   - component: {fileID: 1657744369}
   - component: {fileID: 1657744371}
+  - component: {fileID: 1657744372}
   m_Layer: 0
   m_Name: bloodyspike (64)
   m_TagString: Untagged
@@ -37780,6 +39537,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1657744372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657744368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1662106035
 GameObject:
   m_ObjectHideFlags: 0
@@ -37791,6 +39562,7 @@ GameObject:
   - component: {fileID: 1662106037}
   - component: {fileID: 1662106036}
   - component: {fileID: 1662106038}
+  - component: {fileID: 1662106039}
   m_Layer: 0
   m_Name: bloodyspike (28)
   m_TagString: Untagged
@@ -37891,6 +39663,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1662106039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662106035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1672882561
 GameObject:
   m_ObjectHideFlags: 0
@@ -37902,6 +39688,7 @@ GameObject:
   - component: {fileID: 1672882563}
   - component: {fileID: 1672882562}
   - component: {fileID: 1672882564}
+  - component: {fileID: 1672882565}
   m_Layer: 0
   m_Name: bloodyspike (20)
   m_TagString: Untagged
@@ -38002,6 +39789,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1672882565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672882561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1673764905
 GameObject:
   m_ObjectHideFlags: 0
@@ -38013,6 +39814,7 @@ GameObject:
   - component: {fileID: 1673764907}
   - component: {fileID: 1673764906}
   - component: {fileID: 1673764909}
+  - component: {fileID: 1673764910}
   m_Layer: 0
   m_Name: Wall Spikes3 (3)
   m_TagString: Untagged
@@ -38113,6 +39915,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.96, y: 0.96}
   m_EdgeRadius: 0
+--- !u!114 &1673764910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673764905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1674304474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38276,6 +40092,7 @@ GameObject:
   - component: {fileID: 1679617912}
   - component: {fileID: 1679617911}
   - component: {fileID: 1679617913}
+  - component: {fileID: 1679617914}
   m_Layer: 0
   m_Name: bloodyspike (6)
   m_TagString: Untagged
@@ -38376,6 +40193,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1679617914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679617910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1705945076
 GameObject:
   m_ObjectHideFlags: 0
@@ -38387,6 +40218,7 @@ GameObject:
   - component: {fileID: 1705945078}
   - component: {fileID: 1705945077}
   - component: {fileID: 1705945079}
+  - component: {fileID: 1705945080}
   m_Layer: 0
   m_Name: bloodyspike (37)
   m_TagString: Untagged
@@ -38487,6 +40319,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1705945080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705945076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1726375328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38572,6 +40418,7 @@ GameObject:
   - component: {fileID: 1729962624}
   - component: {fileID: 1729962623}
   - component: {fileID: 1729962625}
+  - component: {fileID: 1729962626}
   m_Layer: 0
   m_Name: bloodyspike (38)
   m_TagString: Untagged
@@ -38672,6 +40519,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1729962626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729962622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1741015010
 GameObject:
   m_ObjectHideFlags: 0
@@ -38683,6 +40544,7 @@ GameObject:
   - component: {fileID: 1741015012}
   - component: {fileID: 1741015011}
   - component: {fileID: 1741015013}
+  - component: {fileID: 1741015014}
   m_Layer: 0
   m_Name: bloodyspike (36)
   m_TagString: Untagged
@@ -38783,6 +40645,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1741015014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741015010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1742662862
 GameObject:
   m_ObjectHideFlags: 0
@@ -38795,6 +40671,7 @@ GameObject:
   - component: {fileID: 1742662863}
   - component: {fileID: 1742662866}
   - component: {fileID: 1742662865}
+  - component: {fileID: 1742662867}
   m_Layer: 0
   m_Name: Spike (28)
   m_TagString: Untagged
@@ -38907,6 +40784,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1742662867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742662862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1742979211
 GameObject:
   m_ObjectHideFlags: 0
@@ -38979,7 +40870,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -39003,6 +40894,7 @@ GameObject:
   - component: {fileID: 1747175175}
   - component: {fileID: 1747175178}
   - component: {fileID: 1747175177}
+  - component: {fileID: 1747175179}
   m_Layer: 0
   m_Name: Spike (8)
   m_TagString: Untagged
@@ -39115,6 +41007,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1747175179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747175174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1751563553
 GameObject:
   m_ObjectHideFlags: 0
@@ -39245,6 +41151,7 @@ GameObject:
   - component: {fileID: 1771624521}
   - component: {fileID: 1771624524}
   - component: {fileID: 1771624523}
+  - component: {fileID: 1771624525}
   m_Layer: 0
   m_Name: Spike (40)
   m_TagString: Untagged
@@ -39357,6 +41264,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1771624525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771624520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1789342943
 GameObject:
   m_ObjectHideFlags: 0
@@ -39429,7 +41350,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -39483,6 +41404,7 @@ GameObject:
   - component: {fileID: 1796076958}
   - component: {fileID: 1796076957}
   - component: {fileID: 1796076959}
+  - component: {fileID: 1796076960}
   m_Layer: 0
   m_Name: bloodyspike (13)
   m_TagString: Untagged
@@ -39583,6 +41505,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1796076960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796076956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1800252424
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39669,6 +41605,7 @@ GameObject:
   - component: {fileID: 1810194631}
   - component: {fileID: 1810194634}
   - component: {fileID: 1810194633}
+  - component: {fileID: 1810194635}
   m_Layer: 0
   m_Name: Spike (5)
   m_TagString: Untagged
@@ -39781,6 +41718,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1810194635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810194630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1819800768
 GameObject:
   m_ObjectHideFlags: 0
@@ -39792,6 +41743,7 @@ GameObject:
   - component: {fileID: 1819800770}
   - component: {fileID: 1819800769}
   - component: {fileID: 1819800771}
+  - component: {fileID: 1819800772}
   m_Layer: 0
   m_Name: bloodyspike (68)
   m_TagString: Untagged
@@ -39892,6 +41844,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1819800772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819800768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1830094621
 GameObject:
   m_ObjectHideFlags: 0
@@ -39949,7 +41915,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -40091,6 +42057,7 @@ GameObject:
   - component: {fileID: 1851827308}
   - component: {fileID: 1851827307}
   - component: {fileID: 1851827309}
+  - component: {fileID: 1851827310}
   m_Layer: 0
   m_Name: bloodyspike (29)
   m_TagString: Untagged
@@ -40191,6 +42158,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1851827310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851827306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1854169221
 GameObject:
   m_ObjectHideFlags: 0
@@ -40287,6 +42268,7 @@ GameObject:
   - component: {fileID: 1855022204}
   - component: {fileID: 1855022207}
   - component: {fileID: 1855022206}
+  - component: {fileID: 1855022208}
   m_Layer: 0
   m_Name: Spike (41)
   m_TagString: Untagged
@@ -40399,6 +42381,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1855022208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855022203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1855970084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40484,6 +42480,7 @@ GameObject:
   - component: {fileID: 1862119752}
   - component: {fileID: 1862119751}
   - component: {fileID: 1862119753}
+  - component: {fileID: 1862119754}
   m_Layer: 0
   m_Name: bloodyspike (62)
   m_TagString: Untagged
@@ -40584,6 +42581,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1862119754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862119750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1868879749
 GameObject:
   m_ObjectHideFlags: 0
@@ -40725,7 +42736,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -40761,11 +42772,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6792428846129158260, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_Size.x
-      value: 1.4603087
+      value: 1.0427773
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158260, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_Offset.x
-      value: -0.23015441
+      value: -0.02138868
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158261, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_Name
@@ -40845,6 +42856,7 @@ GameObject:
   - component: {fileID: 1872504337}
   - component: {fileID: 1872504336}
   - component: {fileID: 1872504338}
+  - component: {fileID: 1872504339}
   m_Layer: 0
   m_Name: bloodyspike (31)
   m_TagString: Untagged
@@ -40945,6 +42957,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1872504339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872504335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1880522123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41104,6 +43130,7 @@ GameObject:
   - component: {fileID: 1893086766}
   - component: {fileID: 1893086765}
   - component: {fileID: 1893086767}
+  - component: {fileID: 1893086768}
   m_Layer: 0
   m_Name: bloodyspike (3)
   m_TagString: Untagged
@@ -41204,6 +43231,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1893086768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893086764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1903518520 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1196877331481630484, guid: 81a379b51d9e86246b9f0a7635043e46, type: 3}
@@ -41225,6 +43266,7 @@ GameObject:
   - component: {fileID: 1908020120}
   - component: {fileID: 1908020119}
   - component: {fileID: 1908020121}
+  - component: {fileID: 1908020122}
   m_Layer: 0
   m_Name: bloodyspike (56)
   m_TagString: Untagged
@@ -41325,6 +43367,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1908020122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908020118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1916558885
 GameObject:
   m_ObjectHideFlags: 0
@@ -41336,6 +43392,7 @@ GameObject:
   - component: {fileID: 1916558887}
   - component: {fileID: 1916558886}
   - component: {fileID: 1916558888}
+  - component: {fileID: 1916558889}
   m_Layer: 0
   m_Name: bloodyspike (19)
   m_TagString: Untagged
@@ -41436,6 +43493,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1916558889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916558885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1916738778
 GameObject:
   m_ObjectHideFlags: 0
@@ -41448,6 +43519,7 @@ GameObject:
   - component: {fileID: 1916738779}
   - component: {fileID: 1916738782}
   - component: {fileID: 1916738781}
+  - component: {fileID: 1916738783}
   m_Layer: 0
   m_Name: Spike (27)
   m_TagString: Untagged
@@ -41560,6 +43632,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1916738783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916738778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1916790960
 GameObject:
   m_ObjectHideFlags: 0
@@ -41571,6 +43657,7 @@ GameObject:
   - component: {fileID: 1916790962}
   - component: {fileID: 1916790961}
   - component: {fileID: 1916790964}
+  - component: {fileID: 1916790965}
   m_Layer: 0
   m_Name: Wall Spikes3 (4)
   m_TagString: Untagged
@@ -41671,6 +43758,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.96, y: 0.96}
   m_EdgeRadius: 0
+--- !u!114 &1916790965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916790960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1926414780
 GameObject:
   m_ObjectHideFlags: 0
@@ -41894,6 +43995,7 @@ GameObject:
   - component: {fileID: 1932656673}
   - component: {fileID: 1932656672}
   - component: {fileID: 1932656674}
+  - component: {fileID: 1932656675}
   m_Layer: 0
   m_Name: bloodyspike (2)
   m_TagString: Untagged
@@ -41994,6 +44096,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1932656675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932656671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1939435341
 GameObject:
   m_ObjectHideFlags: 0
@@ -42005,6 +44121,7 @@ GameObject:
   - component: {fileID: 1939435343}
   - component: {fileID: 1939435342}
   - component: {fileID: 1939435344}
+  - component: {fileID: 1939435345}
   m_Layer: 0
   m_Name: bloodyspike (25)
   m_TagString: Untagged
@@ -42105,6 +44222,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1939435345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939435341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1940971499
 GameObject:
   m_ObjectHideFlags: 0
@@ -42117,6 +44248,7 @@ GameObject:
   - component: {fileID: 1940971500}
   - component: {fileID: 1940971503}
   - component: {fileID: 1940971502}
+  - component: {fileID: 1940971504}
   m_Layer: 0
   m_Name: Spike (38)
   m_TagString: Untagged
@@ -42229,6 +44361,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1940971504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940971499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!4 &1941930348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
@@ -42246,6 +44392,7 @@ GameObject:
   - component: {fileID: 1942630346}
   - component: {fileID: 1942630349}
   - component: {fileID: 1942630348}
+  - component: {fileID: 1942630350}
   m_Layer: 0
   m_Name: Spike (58)
   m_TagString: Untagged
@@ -42358,12 +44505,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!1 &1953432154
 GameObject:
+=======
+--- !u!114 &1942630350
+MonoBehaviour:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1953432155}
@@ -42389,6 +44542,16 @@ Transform:
   m_Father: {fileID: 1088205217}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1942630345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
+>>>>>>> Stashed changes
 --- !u!1 &1962230232
 GameObject:
   m_ObjectHideFlags: 0
@@ -42400,6 +44563,7 @@ GameObject:
   - component: {fileID: 1962230234}
   - component: {fileID: 1962230233}
   - component: {fileID: 1962230236}
+  - component: {fileID: 1962230237}
   m_Layer: 0
   m_Name: Wall Spikes2 (1)
   m_TagString: Untagged
@@ -42500,6 +44664,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.96, y: 0.96}
   m_EdgeRadius: 0
+--- !u!114 &1962230237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962230232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!4 &1965460563 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
@@ -42577,7 +44755,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -42600,6 +44778,7 @@ GameObject:
   - component: {fileID: 1969009638}
   - component: {fileID: 1969009637}
   - component: {fileID: 1969009639}
+  - component: {fileID: 1969009640}
   m_Layer: 0
   m_Name: bloodyspike (47)
   m_TagString: Untagged
@@ -42700,6 +44879,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1969009640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969009636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1972560947
 GameObject:
   m_ObjectHideFlags: 0
@@ -42710,6 +44903,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1972560949}
   - component: {fileID: 1972560948}
+  - component: {fileID: 1972560950}
   m_Layer: 0
   m_Name: bloodyspike
   m_TagString: Untagged
@@ -42784,6 +44978,20 @@ Transform:
   m_Father: {fileID: 1357704541}
   m_RootOrder: 147
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1972560950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972560947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1974858701
 GameObject:
   m_ObjectHideFlags: 0
@@ -42856,7 +45064,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -42880,6 +45088,7 @@ GameObject:
   - component: {fileID: 1979299619}
   - component: {fileID: 1979299622}
   - component: {fileID: 1979299621}
+  - component: {fileID: 1979299623}
   m_Layer: 0
   m_Name: Spike (60)
   m_TagString: Untagged
@@ -42992,6 +45201,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1979299623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979299618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1984027215
 GameObject:
   m_ObjectHideFlags: 0
@@ -43003,6 +45226,7 @@ GameObject:
   - component: {fileID: 1984027217}
   - component: {fileID: 1984027216}
   - component: {fileID: 1984027218}
+  - component: {fileID: 1984027219}
   m_Layer: 0
   m_Name: bloodyspike (57)
   m_TagString: Untagged
@@ -43103,6 +45327,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1984027219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984027215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &1989938741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43189,6 +45427,7 @@ GameObject:
   - component: {fileID: 1996829200}
   - component: {fileID: 1996829203}
   - component: {fileID: 1996829202}
+  - component: {fileID: 1996829204}
   m_Layer: 0
   m_Name: Spike (3)
   m_TagString: Untagged
@@ -43301,6 +45540,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1996829204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996829199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &1997120656
 GameObject:
   m_ObjectHideFlags: 0
@@ -43313,6 +45566,7 @@ GameObject:
   - component: {fileID: 1997120657}
   - component: {fileID: 1997120660}
   - component: {fileID: 1997120659}
+  - component: {fileID: 1997120661}
   m_Layer: 0
   m_Name: Spike (20)
   m_TagString: Untagged
@@ -43425,6 +45679,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &1997120661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997120656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &2010913940
 GameObject:
   m_ObjectHideFlags: 0
@@ -43436,6 +45704,7 @@ GameObject:
   - component: {fileID: 2010913942}
   - component: {fileID: 2010913941}
   - component: {fileID: 2010913943}
+  - component: {fileID: 2010913944}
   m_Layer: 0
   m_Name: bloodyspike (4)
   m_TagString: Untagged
@@ -43536,6 +45805,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &2010913944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010913940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &2021523551
 GameObject:
   m_ObjectHideFlags: 0
@@ -43548,6 +45831,7 @@ GameObject:
   - component: {fileID: 2021523552}
   - component: {fileID: 2021523555}
   - component: {fileID: 2021523554}
+  - component: {fileID: 2021523556}
   m_Layer: 0
   m_Name: Spike (59)
   m_TagString: Untagged
@@ -43660,6 +45944,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &2021523556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021523551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &2035946623
 GameObject:
   m_ObjectHideFlags: 0
@@ -43672,6 +45970,7 @@ GameObject:
   - component: {fileID: 2035946624}
   - component: {fileID: 2035946627}
   - component: {fileID: 2035946626}
+  - component: {fileID: 2035946628}
   m_Layer: 0
   m_Name: Spike (1)
   m_TagString: Untagged
@@ -43784,6 +46083,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &2035946628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035946623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &2043559199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44056,7 +46369,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -44140,7 +46453,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -44224,7 +46537,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -44293,7 +46606,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -44331,6 +46644,7 @@ GameObject:
   - component: {fileID: 2099819166}
   - component: {fileID: 2099819165}
   - component: {fileID: 2099819167}
+  - component: {fileID: 2099819168}
   m_Layer: 0
   m_Name: bloodyspike (66)
   m_TagString: Untagged
@@ -44431,6 +46745,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &2099819168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099819164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1001 &2102586639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44518,11 +46846,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1196877331481630480, guid: 81a379b51d9e86246b9f0a7635043e46, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1196877331481630480, guid: 81a379b51d9e86246b9f0a7635043e46, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1196877331481630480, guid: 81a379b51d9e86246b9f0a7635043e46, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44610,6 +46938,7 @@ GameObject:
   - component: {fileID: 2110846170}
   - component: {fileID: 2110846173}
   - component: {fileID: 2110846172}
+  - component: {fileID: 2110846174}
   m_Layer: 0
   m_Name: Spike (51)
   m_TagString: Untagged
@@ -44722,6 +47051,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &2110846174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110846169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &2118785923
 GameObject:
   m_ObjectHideFlags: 0
@@ -44779,7 +47122,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -44819,7 +47162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158261, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_TagString
-      value: ground
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6792428846129158262, guid: 999fc920fc5090b4eaae18713094d3c7, type: 3}
       propertyPath: m_RootOrder
@@ -44956,7 +47299,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 5f7dab5f3665b6d4280b3cbc8db275a3, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -45054,6 +47397,7 @@ GameObject:
   - component: {fileID: 2140969850}
   - component: {fileID: 2140969853}
   - component: {fileID: 2140969852}
+  - component: {fileID: 2140969854}
   m_Layer: 0
   m_Name: Spike (17)
   m_TagString: Untagged
@@ -45166,6 +47510,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &2140969854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140969849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c209ee23f857164ab8c0b6d1ba93535, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ew: {fileID: 2071250345}
+  enemy: {fileID: 2071250342}
 --- !u!1 &2142529405
 GameObject:
   m_ObjectHideFlags: 0
@@ -45238,7 +47596,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 21300000, guid: 04083a29258a1b0418ae610b999c8e0f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
