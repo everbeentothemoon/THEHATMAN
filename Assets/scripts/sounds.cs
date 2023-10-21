@@ -22,5 +22,13 @@ public class sounds : MonoBehaviour
             Debug.LogWarning("AudioSource or audio clip not properly set up.");
         }
     }
+
+    public void StopMusic()
+    {
+        if (audioSource != null && audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
+    }
 }
 

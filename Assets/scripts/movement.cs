@@ -6,6 +6,10 @@ public class movement : MonoBehaviour
     private Rigidbody2D rb;
     public float jumpForce = 10f;
 
+    public LayerMask objectsToDetect;
+    public float detectionRadius = 10f;
+
+
     public LayerMask groundLayer;
     public Transform groundCheck;
     public float groundCheckRadius = 0.1f;
@@ -40,13 +44,26 @@ public class movement : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
+        bool objectsDetected = CheckObjectsInVicinity();
+
+        if (Input.GetKey(KeyCode.LeftShift) && !isShiftKeyPressed && !objectsDetected)
+        {
+            isShiftKeyPressed = true;
+            Die(); // Call the method here
+        }
+
+        if (!Input.GetKey(KeyCode.LeftShift))
+        {
+            isShiftKeyPressed = false;
+        }
+
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             left.SetActive(true);
             right.SetActive(false);
         }
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             right.SetActive(true);
             left.SetActive(false);
@@ -196,5 +213,21 @@ public class movement : MonoBehaviour
 
         fallDamage = false;
         isDead = false;
+    }
+
+    private bool CheckObjectsInVicinity()
+    {
+        Collider2D[] nearbyObjects = Physics2D.OverlapCircleAll(transform.position, detectionRadius, objectsToDetect);
+
+        foreach (Collider2D obj in nearbyObjects)
+        {
+            // Check if the detected object should prevent death
+            if (obj.CompareTag("safeZone"))
+            {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

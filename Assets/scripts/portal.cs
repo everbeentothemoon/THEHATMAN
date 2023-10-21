@@ -8,10 +8,13 @@ public class portal : MonoBehaviour
     public Transform destinationTransform;
     public enemyWalking ew;
     public GameObject enemy;
+    public sounds s;
+    public GameObject hatman;
 
     public void Start()
     {
         ew = enemy.GetComponent<enemyWalking>();
+        s = hatman.GetComponent<sounds>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -20,6 +23,7 @@ public class portal : MonoBehaviour
         {
             other.transform.position = destinationTransform.position;
             ew.spawnCount++;
+            s.PlayMusic();
         }
     }
 }
